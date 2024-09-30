@@ -1,0 +1,50 @@
+CHAPTER 3
+margin collapse 
+box sizing
+
+CHAPTER 4
+display
+text align property
+text decoration property
+text transform property
+line height property 
+fonts
+font size
+font family
+web safe fonts 
+google fonts
+
+CHAPTER 5
+Relative lengths
+min max height width property 
+the position property
+z index property
+list style
+
+CHAPTER 6
+float property
+clear property
+flexbox
+
+CHAPTER 7
+Grid properties 
+grid column gap
+grid row gap
+grid gap property 
+grid container 
+Media queries
+
+CHAPTER 8
+Transform
+transform property
+transform original property
+css 2d, 3d transform method
+
+Transition
+transition property
+transition duration
+transition timing 
+transition timing delay
+transition delay
+
+Animation

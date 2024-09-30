@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size, position and Lists</title>
+    <style>
+        /* *{
+            margin: 0;
+            padding: 0;
+        } */
+        .container{
+            width: 4px;
+            height: 290px;
+            background-color: darkgrey;
+            min-width: 50vh;    
+            /* max-height: ; */
+        }
+        li{
+            /* display: inline; */
+            list-style: square;
+        }
+        .nav{
+            background-color: burlywood;
+            height: 50px;
+            z-index: 10;
+        }
+        p{
+            text-align: center;
+        }
+        .block1{
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+        }
+        .box2{
+            background-color: coral;
+            width: 40px;
+            height: 50px;
+            position: relative;
+            /* position: absolute; */
+            /* position: fixed; */
+            /* position: sticky; */
+
+
+            left: 300px;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi rerum atque dolore debitis ut minima itaque, praesentium unde quidem similique possimus quod nemo temporibus? Autem quasi quidem facilis ex iusto.
+    </div> -->
+
+    <!-- position -->
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>about</li>
+            <li>contact</li>
+        </ul>
+    </div>
+
+    <div class="block1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, quod voluptas repellat dolores dolor beatae rerum, aperiam quidem quo iusto, dignissimos soluta facilis praesentium quisquam veniam sit deleniti vero distinctio.</p>       
+        <div class="box2">
+            i am a box
+        </div>
+    </div>
+
+    <div class="cont2">
+        <ul>
+            <li>Apple</li>
+            <li>Samsung</li>
+            <li>vivo</li>
+        </ul>
+    </div>
+
+</body>
+</html>

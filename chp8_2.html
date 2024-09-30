@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .container{
+            height: 100vh;
+            background-color: yellowgreen;
+
+        }
+        .box{
+            background-color: darkgreen;
+            color: aliceblue;
+            width: 300px;
+            height: 300px;
+            /* animation-name: widthchange;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: 4; 
+            animation-direction: normal; */
+
+            animation: widthani 3s ease-in 0.5s 2 alternate;
+
+
+        }
+        @keyframes widthchange {
+            from{
+                width: 300px;
+            }
+            to{
+                width: 800px;
+            }
+            
+        }
+        @keyframes widthani {
+            0%{
+                width: 300px;
+            }
+            50%{
+                width: 800px;
+            }
+            100%{
+                width: 100vh;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            ewuicuiveinqewnlicnqernciuprenciunqiuncrnucnqierniun
+        </div>
+    </div>
+</body>
+</html>
